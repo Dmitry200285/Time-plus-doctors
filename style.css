@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Sf display;
+  src: local(value_1);
+  src: url(./fonts/SFPRODISPLAYREGULAR.OTF);
+  src: url(./fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+  src: local(value_2);
+  src: url(./fonts/Gilroy-Regular.eot);
+  src: local(value_3);
+  src: url(./fonts/Montserrat-Regular.ttf);
+  src: url(./fonts/Montserrat-SemiBold.ttf);
+  src: url(./fonts/Montserrat-Bold.ttf);
+}
+.container {
+  width: 1240px;
+  margin: auto;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.name_page {
+  font-family: "value_1";
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0;
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.name_page:after {
+  margin: 0 auto;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: red;
+  bottom: -7px;
+  left: 0;
+}
+
+.doctors {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.doctor {
+  background-repeat: no-repeat;
+  height: 365px;
+  border-radius: 4px;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.doctor p {
+  font-family: "value_3";
+  font-size: 18px;
+  width: 210px;
+  color: white;
+  position: relative;
+  top: 73%;
+  padding: 5px 0 5px 15px;
+  margin: 0;
+}
+
+.doctor .speciality {
+  font-family: "value_2";
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  filter: brightness(90%);
+  margin: 0;
+}
+
+.reability {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.reabilitolog_name {
+  font-family: "value_1";
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.reabilitolog_name:after {
+  margin: 0 auto;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: red;
+  bottom: -7px;
+  left: 0;
+}
+
+.reabilitologs {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.reabilitolog {
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 365px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.reabilitolog p {
+  font-family: "value_3";
+  font-size: 18px;
+  width: 200px;
+  color: white;
+  position: relative;
+  top: 73%;
+  padding: 5px 0 5px 15px;
+  margin: 0;
+}
+
+.reabilitolog .speciality {
+  font-family: "value_2";
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  filter: brightness(90%);
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

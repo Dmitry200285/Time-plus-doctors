@@ -7,6 +7,7 @@
     src: url(./fonts/Gilroy-Regular.eot);
     src: local(value_3);
     src: url(./fonts/Montserrat-Regular.ttf);
+    src: url(./fonts/Montserrat-Medium.ttf);
     src: url(./fonts/Montserrat-SemiBold.ttf);
     src: url(./fonts/Montserrat-Bold.ttf);
 }
@@ -64,7 +65,8 @@
 
 .doctor p {
     font-family: 'value_3';
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
     width: 210px;
     color: white;
     position: relative;
@@ -75,7 +77,8 @@
 
 .doctor .speciality {
     font-family: 'value_2';
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
     letter-spacing: 0.5px;
     filter: brightness(90%);
     margin: 0;
@@ -127,7 +130,8 @@
 
 .reabilitolog p {
     font-family: 'value_3';
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
     width: 200px;
     color: white;
     position: relative;
@@ -138,7 +142,8 @@
 
 .reabilitolog .speciality {
     font-family: 'value_2';
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
     letter-spacing: 0.5px;
     filter: brightness(90%);
     margin: 0;
